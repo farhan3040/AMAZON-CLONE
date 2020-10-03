@@ -46,7 +46,7 @@ function Login() {
                     <input type="password" value ={password} onChange = {event => setPassword(event.target.value)}/>
                     <button className="login_signInButton" onClick ={login} type="submit">Sign In</button>
                 </form>
-                <p>Copy and paste these scripts into the bottom of your ut before you use any Firebase services</p>
+                <p>By signing-in you agree to Amazon's Condition of Use & Sale. Please see our Privacy Notice , Our Cookies Notices and our interest-Based Ads Notice</p>
                 <button className="login_registerButton" onClick = {register} type="submit">Create Amazon Account</button>
             </div>
         </div>
